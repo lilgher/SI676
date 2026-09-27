@@ -1,0 +1,12 @@
+<table>
+    <thead>
+        <th>Requirement</th><th>Points</th></thead>
+    <tbody>
+        {% for item in site.data.quiz-data %}
+        <tr>
+            <td>{{ item.Requirement }}</td>
+            <td>{{ item.Points }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
