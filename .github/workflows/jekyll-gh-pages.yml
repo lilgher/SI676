@@ -33,8 +33,8 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: C:/Users/lherm/Downloads/SI676/SI676
-          destination: C:/Users/lherm/Downloads/SI676/SI676/jekyll_quiz_site
+          source: ./
+          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
