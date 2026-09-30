@@ -21,7 +21,7 @@
 title: Lily's Jekyll Quiz Site
 description: >- # this means to ignore newlines until "baseurl:"
   Website to fulfill quiz requitements for SI676.
-baseurl: "/si676/jekyll_quiz_site" # the subpath of your site, e.g. /blog
+baseurl: "/si676" # the subpath of your site, e.g. /blog
 url: "https://lilgher.github.io" # the base hostname & protocol for your site
 github_username: lilgher
 
@@ -49,4 +49,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-include: quiz-data-include.html
