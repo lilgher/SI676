@@ -29,7 +29,7 @@ github_username:  lilgher
 theme: minima
 plugins:
   - jekyll-feed
-
+source: C:\Users\lherm\Downloads\SI676\SI676\jekyll_quiz_site
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
